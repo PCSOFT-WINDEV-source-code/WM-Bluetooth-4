@@ -1,0 +1,472 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_Scan
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_Scan
+ identifier : 0x2875fff508e8cf65
+ internal_properties : CAAAAAgAAAAirxzIPpb6bClaY1xjHS2Atvy5XOGn2lPBDblyfYmk2yBxKmB2G7odeYzcaZg0IEGw+QZdB5x/advQw09cWNqPGCIF0p8N8xKjbAhGo0JAOi3msbMT2uIDp9jOMyRdXDPCyyTb9CbxragI8sdVQAdouMJiRWIDPvoR+TYpTxV0cwU9gMyH+2sJhl0UvT+C0+gVY7RWEnYNUA0vf5bt2ElfDdkzZuvviTWkzrZ1e1J07trX1IuP7UqrQGNhP0/3EXZfUnbrvN6SOtwlkSdBE/E+A8nVtzwLKX4xgrLq923Tpvqw4+jqUZmmAnYSMDy1H0I37C5bJymqSj9K5Ik0lJ4J4o7ttJpbiS4zofPs+AwD1NlUdlqhEI5qvgBSIKHoZWoHwqQW847f4f4CdwyklApWR/Ztw5WfPa6oE9H+r34oiBP53RRKro7vYsFwCjA+iAZDfsM+A5nocv1LZWsIgF4W41QPNui+ZQXjMLGb3oBc7+GEOcpAhj2pF2vJxjRSUVec4WXUarq7K8tF3AKHvd308k1kUWTjmG4DD7UNQYfXvx5jae6j4r8ylkFq53IMZIzUiQjeKwlpwr3hxh7WgoQDj5qph7+hZy9nHHSGkMee/G1bRWRSNDlKI3c7kmScj4N2iuzxofOfNbz9zyd4I6PVDwPP6xtfnG8tPCA4F7gVG+5hF7ut+mzMKQwHs7kTUx35KlNdaDa5tcJXB0I2hlGVd/LJTxoYruhcxwnFyNj/N78GEUyE692qgHa3TSGLs3t7Oi/Y
+ properties :
+  width : 320
+  height : 408
+  heightMin : 481
+ controls :
+  -
+    name : LOOP_BTLE
+    identifier : 0x2875fff508eccf65
+    internal_properties : CAAAAAgAAAAjR5YxvYgOSH8nm2GsUxhcj8TckbZcoCgE/DAFgNmB6hONnvTTuRU5usgRsY5tZMXvAaxziHF0C3lvivfsDqsFDkBSF7sXWVBDmZsBKPp8QoJLk03HtM18L5m3CgV4eqZwScP55TYkg13vXcqMj2Bs+SyXsfqDII+JxyfqQqxIs1144nkPGPhDHJ7UUCfGUKVKBQ0EkYTGQwUDitEktNLWAlPBM7g2PtX1KCNWo+rGC1kZ+jBTN3y3qWV/sK9RFw/r4v++nSXQjyTyce/zrNDeciM1/bm6nqf3/KVN8lp51th6dJ73yWqtK2pFigV7n/d3+Nfv03JBRAgN0/X9TGSHo0nY3QrH9qWfokVPRO0IKD2BwDULhgg280PazkFP195qiVcPPn/9Y6eym8Ow5jGHKp2PXx//KspJjUYPyJNEA8/9aob1M8X10AvFoasFgYH5oIK83tADVWuwBDIN3tZAQ4fW7+UHix4yBq5XPIN25zgAUIK8kpV8RVvNizr7PmhawNLTHqcD9y5ijT6IkRPVbnWd9+pHP6fOLncdxS/k6eeP2Tuzm2jHt3emspoy+bAapqkNEtqcCGR+EgzzG8BnxssIvqj2EPlAyJOEUH3KOz4LxviL13SaOCnevpEdfAFf1g3mYNg83tjiw5aGxnYRXdPtWT3r498u14tzzKKoOfmOuH8ii6j2SgryjFq59bM8qHdPOhqzm7/kVfVMvwh6C6Y5VFLORxjmyVPI27uHzWaHY9fkR3H5m3WPgrwZ49bQMMVdNIYAgn4wIcVfRqWNxt6yfGgfeZLh0YMFtUoSDSl/wi4yJJ4fXHwFBrfr4hYOL966gHIzPvkduMSOxxZsn0vmdJ7N2nRsHAfyJBjtt+TIFwttB1fZzq6FKWxWpP8WiXDoGg9TRT/nI/J9bsTNJf7RrJasWlCoEaePa7pjCqnASeo43+1aLMYMtXQTEYC2ZBlSI/XLM3j3/0paEMLjg4I3w95Ba4tii3zGbwhE+DoIMZctgq6hXOvpGwhw/Le1W+XztXS4iSHyEAFn3fWOGRbfjTtrUzQvsPdeXs5UBjh9zW4ZCnaJfld2RgpKM4431IQVvvgxmh5zaVahXAsBirwOx+QIgmKHrV+penTsvbH0jgtpi5eWQVI7LGhhVLx5UEec4stzbPYumEf/1RanG3nrH/s/fPKu9kDb7i5GdnGUGX3gcdnrIrzwOqDnYnIwTmM4ARBsKFkY10d+DHrsKSHlIhDdI8hUwb3Q3M/5nd1VyjjDXcKgFF08MngDiqLG2yDfuov5N+NbjuIk4ule+6Zng4iK8EKjPDLg4Yrli0aNOwbvFzqtHl3c2QMCQ0H+s36pPxrzlk9BhqR1/9mCacXVfsoexmdR4z8H5Cty9jV+RPQvOobsBaTsxb4zPPDp6L8txgV6pQiHZSU+tv9iTTfJl4fU2FNL4KjktYFwzSLt9o6wljhfcAx+K1H/2oNxbzNDAo/on3GnYJayapVgfVNkCgGcejKiqPTnhahx2bv67VCkVNoilHEeB/25xWUqaPJc7Kgjml+vohHHja8MkH1BRquuLlFxfbW7c/ZkYT3GnX2/cMX49/q4tel1VnZV2Q+KsWPdYz9IsPzE3nE9Zpu+PPaOD8EG+B61ui3oGY0BoY0H7ml5hD/3SuzVoJqbVFInahN8AG0GihVJD3DIRGZbM1BtJlIy+JLWZv2gnNb6tgh3h+v1CrzpHzA9Gg4f591QFTFcl22n4nTB/DqHFpYq03LSHQoBvamNg7wrsVDdVaq16Z68XnMkzvE1QJwg+CMchN3gIdzqBj5iIq+0lACokIRLUicY/bM+qcu/YzF74x6nrBSePSgPl4IfNog8oni6NFOH3GTsysyeO8iZ9yCK8qGQMLK8mPIny4jWx5eIyZnxUJYmF8PitxUN07hM96sy34c6P/y5Rk19J3fqumby5L+doNzvA/nBarcy6vgIL4x9Xxagee9S5+vnZq71aq1YgoMRA4J0emVOtgxEioLDI7yoNo6Gz8h0B+yhwxNMXGiPtWolulH3DM8oLpkeFjkX+l5kt0zi41l8trXbvL2xzts932uhb1xZ/QDQ3Nj45FJ/XJ9lXHN67rAzVm7D3ed2996hEW8wfNIzRthpzyrZPrwv/KnGhJXTa36pPjwgvm5eWMxkzJORm2CfW13iAGGk+o1nFwjq5TRiwoJb0aSQbSP7qx5c9+O5lIIa1lWkG73XndAgeoiC5+XPPYuyeIReTnTCXnh5jis9fCpdEfsq9nwl6f6U473090Z92AEgGfeZqStLRHEE7pQf99/3qWlHTIhpapoMxT9DRkXSKaB57lneSUd3i4WUFgY3oK2eFaINe1hJ2mUUMA6LtAZixrxng77jBFj0MnD2LG3HbR9buyfrCs9YRF3mfrxHkQRFr8DnW6JpBYStQem8LAInB+Sz3rLIN1EKPgVTE0WDglCEuJyL/+mJfiqosLvp38030ATbx+eOq1m6bXmBDg2pF3NYF6TWMBFrTfqz26AXOCP0ohBY12q+sNcuDzpOnmVv0KazsbSfvhrxSiB8WiGIkCBp7zV7eCnCTszeZVKfTMhE9jw9VhPYehw8HxzpizTatrsoq3x7Xjj3NnjTlpnX4eK8Lfl+qU/ux7gvAQ3cY5nLEzjNAlGLJskNdVrO21NwcRSFAziV4v1hRe3yluccEo3g/nHcVNHw7xgs8MJ9k/isjpjEYMm7LfZN2mhg35YvF08+22u8cEVE1pWoBOzedhdGNMD8xB+cpJtau7VSzN5StULN2dYU97aZdvx1d5rlbmOj8ynNIISuQhsFb6V/cC1pGm/N+02hgK8GC6vf/+kq4iGGTnuDwkdBQIhE05d1h32HUchyr3mNLgk9HWUgN+BArDl5aovW2DiyGsHfY0kn4uOKMf3ij9uexPRDttkmd6TBqrKnsnVPRD/jgkD6aHD1T0mjjivjeZdEkq074NWtR1VLNxctHtoR9wZ3JcDTuLO7yCJk92CLCPd5/dGIqq67UOKBzd5L/IOAGJKNWVkod6HngSheVU0IUhim3/owo6H5EPoRBzaaVHws6MiWAxIqn7MFg+Q0aWt3vWAJ5w4e
+    properties :
+     width : 320
+     height : 408
+    controls :
+     -
+       name : STC_Identifier
+       identifier : 0x2875fff508efcf65
+       internal_properties : CAAAAAgAAAB7v3AEW2ONufeTPrdJX+cxKKQspg8oFJWyMdAYSAs9lwTWm0K4xrCZh8oDOz8B4ZPgwf4/OmqtAEeuVENdTxzBXW9hWyoSrXIKli6Tu9B5j1dbwIbRMRmzOBL7lE4rjaXGDxWb28cdVOvST/6XOIGWiVE8PP4eH+QWJwKazpJKU5crmIZdB+kUuTdEiPce0OSXqMD3ajmbmq+9ku06709pT0v/zAnKznTQCu+ueWEwWBon6ECdS6fuR4WtwK+0Zfh6QjhNvyTssDcEoJxjZGUz+E+bD1AI3LW5cW+BtTOjftsQvVjnW1mJ1pp/FXb3xjFn/hG5oVhGF1hhPcNTnoHC9mcYN+vQrvhmKc/O4b6jDpWU76qByGxH3swAN9ifBpyUstTN0I77NEoZhPX3sIdJKfHNlYK/QZWJ/idArdPKF5pDxmDQh6gy0UbME8xsfwQKYrJhyZCCV0JOrhxSGAr1IyaNyZalVeSHPVDrX0TcGuCKBcg8
+       properties :
+        x : 50
+        y : 9
+        width : 262
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_Name
+       identifier : 0x2875fff508f0cf65
+       internal_properties : CAAAAAgAAAA7UItyv0QzXrXKuSL+ML8Amc0ES+entRo1JtSTA0G2pST7xKF9id7LdOWCnvuPxZDsq/Fnh99uPrhgWYmw4MtuttG7GAUwpuhT0ffANXoOiHR/msGtHMnn2cZuJnjeoq3pVjBroAYb9THnIistO374V38A+P3/W0p1nvdMu4ZQNI96FFYlBWHxnWqAfbGe2FzG0zdJAwwEMenWRg1oUCPSWUC1yjOF7C/bNBMVhQqXQlw5PKGi3uDzBy2WcH+nyCkYLpcMrFtjKbiU3ruRY5drMCjt7QyRqUfcesR1fsTm0i4U+l5/BzQo2DnoCNPWxI7tERkAtd1zXLx+nbkEVISK+yMGy2A4Bi45dI/4y+vv7gB0S7UuHWlJlciBuhZT9MLKdUyCYPb3VN4UxhDzOmNnPHiPVOZUkep4V7XeOAt0q/A/CVCRQ4tjcgvLcaGgsNLcHOB4pMTHU9DdcT4FlUlpiZcXm9lUMjM=
+       properties :
+        x : 50
+        y : 34
+        width : 262
+        height : 21
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_BLE
+       identifier : 0x2875fff508f1cf65
+       internal_properties : CAAAAAgAAABBAanLcCUDf63tfNlWvM4kBKc2enI6emAz1bVv0fsA+AW9olcKxdWBww7yumV0TmXa6byx32Tht7wrXvKYSAHHsxoq0LPA4ZbtCw7NprPVFKPoVN5cKBD6GOPQzJWrTVU0BRGmT7VEeoRC987CjBAFFwLF78L3+BHcZ5r7MvHqQRgmri4YYqyQkAS4xaNzwkf83kOBIQ6fOJTJ0/bYR43eR5wQ6LiolIQZZ7m4Suw7Nz1FUZUQrjl7Ovwhd3JNan0VICqPel5qbxDvj/IArLSjHadKIY/7hKPVJPV0pKWYZV8up50WzoT2QayIFk7MjF92abb2nffGP8UpaAJAVZNHM8R5EJxvcJ95Ro+JcGAbme73ocZApHL33FPPmTSjVGPR+magrUaymYtPjPaYxMauUbsFT2EUuY770h0pE52tHE4RyjIvL/Th9ML9304y6y+DB1K1fIsA8D5UHu+bYp9snf5PGQcmjxPXcCY+Ft2VCdec+5VC2XSFrvS2sfD4vRXzdmcZD3OXYpt2FrtWMUkk8xDOhGzT4jdSkDGxRUPkKEBH31gdWg0bX6dRzZ5agzgur7pvk14aUXFv+H9PLtTKD7kqBIvSXjEKFlCdzZuQWTKo8amScEa/j0EquWr7VFoH0LdMIxQA/N246XV3dd+km9YQBrl+3J/6RhylnnPLE+grrWgUdye+BbQIKAqIVuYZ5W4PuAqPCAMeCTIN9plpWFj74PUVP7xEvu0IPcTn4I2Hv1fRSCCRY6QL4ga15g1sIHrLzYX5KL9a1u9PgRX0tP8XXdYPMOIAlPnrQ2XJVh/ikCVumplZvFTwhErxUAnhoDyyL9U/13RnCilKTLtOww==
+       properties :
+        x : 12
+        y : 20
+        width : 24
+        height : 24
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_ID
+       identifier : 0x2875fff508edcf65
+       internal_properties : CAAAAAgAAABXJJqjoX8cUgGrRGNJVLCGK+JxISZesbtZS4sdyqWLd6D02MhE2AZEDP9P3sUfLAQhtHV9iL/DQ0pYujmDkdPJ52Rc2XsLIMbE5Vy97XtVaq3ugZ8T3Sy8EeSBUw9F8F3r5DDXjsI5yhKzHiZ07eeCZbfQepHHuZ2n5mMIJVPYWw==
+       type : 3
+       content :
+        identifier : 0x2557a2bd02d0024b
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Name
+       identifier : 0x2875fff508eecf65
+       internal_properties : CAAAAAgAAAA/j1eytWFnQGOHIP9cTek1JeNNpCFFRJUJFVHll80tEcxJKF9jIlDutaQx5sf22ffrxcfCQJVy9eHvk8q1LAkE56PFZGOhMsdoYE3cki521ru74nYlTQz3ZXd8aCISg5+TU0kG8izFJbyI+3F3zPs7JtUVnp2l98v3Uw==
+       type : 3
+       content :
+        identifier : 0x2557a2bd02d2024b
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         IF LOOP_BTLE <= garrDevices..Occurrence THEN
+         	// Open the connection
+         	OpenMobileWindow(WIN_Explorer, garrDevices[LOOP_BTLE])
+         END
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2875fff508f5cf65
+  internal_properties : CAAAAAgAAAD+w4XoVDSB1iJp/x8L6xb75ei2nYqGi+n5OHPe/BcjOsSQBzWzV9lFmPjxNZN8UlppONy8pZ9Cd9RNkk7CmqRtQuPryx1/UWbAlbo6e3DQAfGvQFOfDaK+GvN1uel9Jz3XWMtbuFOa5V8S+0di5VugJe5knFx5wqC3cpYEUoxKZPlwXLc0N7bvPoOsunhy7jQE4HN6u5vixeSdqJfvk4q/u6rXyW6SFz2UY1RqOjdg0L192SvQE2k61pxUTL9NgHC67zOV3ooFhlVfzwoMsNPmB9bHa6nBuNAuW2YfSxkavCsNANhxSYWz/r69eu6+vYHvy3TOCnk4tzCYoouPBzHUAxagQjkpmeZgN8t68ch3wRDhntELgfpQiVjfkw2EkVI=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2875fff508f2cf65
+  internal_properties : CAAAAAgAAABM0BfnmCKOS8s5ewDumBSkqSoTUHe8YBUCJN1iGhWBCHeBlc3Rmd+DqxBvcqZg7y6GITJgp2muUk/detAQxLS14cFVtt7pjlLOFxS84q+fl9FTLJvkXAdwrDE2hT7EhJWdkUEafAlLEHum7xDsX0DpV5Bak6nVtpJJp5kWeioBgP4PaO9oYmuA/XKSC/57LFKshjpYdbeGFcjqOVvT0/LqeXxwFM5YfrepFqsfay4KgVdMHFdqpkGkfI+W7f+5G7wYKvimefBNN9UTDjNI3A0W5nvtcJ0gwa2gNZrQGLRvCOL8QFshtgoe1A==
+  options :
+   -
+     name : OPT_Refresh
+     identifier : 0x2875fff508f3cf65
+     internal_properties : CAAAAAgAAACT67QSZ2r5nDiska2Wx5xDtvx0K+Hw2luiGZtgwc89d1/0OMfVVTjyrtCJNHMtk7dtVsz8LZR59CoVhoJLiaEkXzYHob7vHwaR+dKOLP7gIlp0abv1UnWyXHVt5TzsiwjRSYEhr3yu1EXcnJUgitoM/Eq7RxfezrVqcNP4Q0VsX/aTPNlS5exUX1g/7M97qDKt4Kb8UTqzWROtkG03Gw3T+NhVYHhMVmuOwdKsDjslKLPM/i8qfCSHc48ybYTSjYur4LJnvRQhRuOoTcPmYYAP5racmzhUjj69FCi0qaVn4n6imtrMj5Ohqw==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          StartScan()
+         type : 32
+   -
+     name : OPT_Stop
+     identifier : 0x2875fff508f4cf65
+     internal_properties : CAAAAAgAAAAuqjGQeEhFqPu5UQflIe7a8UWwisQUDbpbK15Nw7y74b4rrAsLiJWWa6HPMtA9qW39ZVpl2EJVWkfaj8reYoTsFzEDhz7HL9lb8j0YnDzI2bV1LhsqIh5wFzD9FeGiBx7T63c4rJxkm+oOjyYQryV9r1KDkERizBzTlE/EF2C8jonbw7uTwjT6AWqVc97tXvOHC3Li01IMkVJ5ILZotWG5l3O+iRgSUNPU4qGNIbvHIlGYo1OypE1sNQ3Hk6j5dOxLwkRB1D94yBTn07eUAoup3PDXgAapKx3tdYBaoxzQ4ZQQuAkRNsRBgd7SQRPXOdUqwQ0=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          StopScan()
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow()
+      
+      gnBluetoothStatus 			is int
+      gbStopListDevices 	is boolean
+      garrDevices 			is array of BTLEDevice
+   -
+     internal_properties : CAAAAAgAAAA/LHQ31vD8tmoMdU3Uuk6dybfBIZyteJN/CcjG4EWn4dUProIKZv+6Q4J77N+q5tvwWVWpCw9LuATdjeEN8X+oUqKiD+D+Uj8Z4SE687iQUvflJ94/SjsST0MOkQ8H/WdquXEabwJHBGlVMRTdQo3zVShl/8RmTwVVsUh6LtPt+7tqbxYZAsXCQAnRBjkqPahISQsAozs5l4WWp0q2tjw=
+     code : |1+
+      
+      // Test of simulator
+      IF InSimulatorMode() THEN
+      	Error("The bluetooth is not available in simulator mode. Run this application on an Android or iOS device.")
+      	Close()
+      END
+      
+      
+      // Test of os version
+      <COMPILE IF ConfigurationType=Android>
+      	IF SysAndroidVersion(sysVersionApiLevel) < 18 THEN
+      		Error("Your Android version does not support the bluetooth 4. You must use a device running Android 4.3 or later.")
+      		Close()
+      	END
+      <ELSE>
+      	nVersion is int = ExtractString(SysIOSVersion(),1,".")
+      	IF nVersion < 9 THEN
+      		Error("Your iOS version does not support the bluetooth 4. You must use a device running iOS 9.0 or later.")
+      		Close()
+      	END
+      <END>
+      
+      
+      // Start the scan
+      StartScan()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : StartScan
+     internal_properties : CAAAAAgAAAC34ewFyg3f7YWUrdtdx9daF2eo6FvHG8cZR0XAN5GKJPy+GVyIjUgSTc60qfKBZpy6FhNvHlCqvVjzOsKEuF7/viD3vuU7XX0eeoQKj84zEm/A1lwdxQ/acNLKvvttGYQ9BXyElraP6mgcGMHK+WbL/5bCg1ZqVOU4FG5CDWZwbaPSenYWKo7BFwlWPOWGDhRxMTuehCgTvPL73wYnU+3uQoY=
+     procedure_id : 1762596256934580069
+     type_code : 14
+     code : |1-
+      // Summary: Starts a search for bluetooth devices
+      //
+      PROCEDURE StartScan()
+      
+      gbStopListDevices = False
+      
+      OPT_Stop..Visible = True
+      OPT_Refresh..Visible = False
+      HourglassNetwork(True)
+      
+      LooperDeleteAll(LOOP_BTLE)
+      
+      // Initialize the bluetooth
+      IF NOT BLEInit() THEN
+      	ToastDisplay("Bluetooth not available")
+      	RETURN
+      END
+      
+      WHILE gnBluetoothStatus <> btEnabled _AND_ NOT gbStopListDevices 
+      	Multitask(-10)
+      END
+      
+      // List the devices
+      BLEList()
+     type : 458752
+   -
+     name : BLEInit
+     internal_properties : CAAAAAgAAAAtMmZ05oBkBTH+fFZbmeSednNKc9z3Hgnnik+UG2WKIbda7xc42yppJiB9AcLGOfRQdXD9/bsee3K6rjzv+rsNcgOiPHaLerCS0sWxXTkhYciZyMhaCsV9Wrqd5E+RvWOM0VX6SypKINVbn3kLZ1rt1LdGHFYc/YcvGuGy0KoHyYEYZXfvGz3hWvfMBCyZh+17dxvFb6kjr52AeAh+QB7PUP6Hn5STBP95YKU5PjqPa15JXt955+PqWNsyfOd7DUgzFyjP
+     procedure_id : 1762596256934645605
+     type_code : 14
+     code : |1-
+      // Summary: Initializes the bluetooth
+      //
+      PROCEDURE BLEInit()
+      
+      bEnabled is boolean
+      
+      
+      
+      <COMPILE IF ConfigurationType=android>
+      	nStatusBTLE is int
+      	
+      	// Check the Bluetooth status
+      	nStatusBTLE = BTLEStatus()
+      	
+      	IF nStatusBTLE <> btEnabled THEN
+      		//1: &Enable
+      		//2: &Don't enable
+      		
+      		SWITCH Dialog(<§?173C1A7400F4FC35§>)
+      		// En&able
+      		
+      			CASE 1
+      				// Activation of Bluetooth
+      				BTActivate(True)
+      				bEnabled = True
+      				
+      				WHILE BTLEStatus() <> btEnabled
+      					Multitask(-10)
+      				END
+      			// &Don't enable
+      			CASE 2
+      				bEnabled = False
+      		END
+      	ELSE 
+      		bEnabled = True
+      	END
+      <ELSE>
+      	bEnabled = True
+      <END>
+      
+      
+      IF bEnabled THEN
+      	<COMPILE IF ConfigurationType=Android>
+      		CB_BLEInit(btEnabled)
+      	<ELSE>
+      		BTLEInitialize(CB_BLEInit)
+      	<END>
+      END
+      
+      RESULT bEnabled
+     type : 458752
+   -
+     name : CB_BLEInit
+     internal_properties : CAAAAAgAAACoEDfwOTPoBCATrSIe2IMmcOKv6HMOMcAGEYWCZmGyvqw3cnr/MNOM+sX69kW5LsBYapSHz4be+0hMGLkPJBC9Fh4LKI2zSoK/i1CK7dIyNF4itgogZPyJp/LupVHqgquOWP7y7bRcDeztE8W/7B4IUDJrK4LjXllY4O9eL10OSduhXsquQPvzXAFf7x8neb8TEE62Dw8/97o4LcjHfuWXENe8yYnrdHXJl4F+Ia8o0zeD+6P2dVqgMchZ8bVyank5UkmNK07vL0TdBCZTSJgnDm5mpdbEIw==
+     procedure_id : 1762596256934711141
+     type_code : 14
+     code : |1-
+      // Summary: End of Bluetooth initialization
+      // Syntax:
+      //CB_BLEInit (<nStatus> is int)
+      //
+      // Parameters:
+      //	nStatus (integer): Bluetooth status
+      //
+      PROCEDURE CB_BLEInit(nStatus is int)
+      
+      gnBluetoothStatus = nStatus
+      
+      IF gnBluetoothStatus <> btEnabled THEN
+      	Error("The Bluetooth is not enabled on your device.","Enable it in order to use this example.")
+      END
+     type : 458752
+   -
+     name : BLEList
+     internal_properties : CAAAAAgAAADrdC2zkVOA1dGefAZryVROBvP6E7R3Hgnnis8UG2WKoTda75c426rppqB9AUJGufRQ9fD9fTsee3K6Lrzv+ruN8gOivHaL+jASUsWx3bmhYcgZSMjaisV9WrodZE+RveMM0RW6i2qK4BUbX7lLJ5qtlPcG3JZcPUdv2qHyEGpHiUFYJTcvW32hmreMRGxZx607t9uFr+ljb91AOEi+AF6PED5HX9TTRL+5IGV5fvrPE2YBlgeBb1tisLOa1H9HPvDgVe6J
+     procedure_id : 1762596256934776677
+     type_code : 14
+     code : |1+
+      // Summary: Lists the bluetooth devices
+      // 
+      PROCEDURE BLEList()
+      
+      gbStopListDevices = False
+      ArrayDeleteAll(garrDevices)
+      
+      // Start the scan
+      BTLEListDevice(CB_BLEList)
+     type : 458752
+   -
+     name : CB_BLEList
+     internal_properties : CAAAAAgAAABQK4UpXrlwFiGLJhaNMa3G6I6xTMCpCKcrWj826rWyjJIOgIFJCbpBqlNMaH1WyBufcSzW6r2vcO7tsbgElmC7bGjXhsCaOVvLxnqjpBise9D7lO+9CwN3r1IdqEFMHG9hr4DMS46ZQzWyRFf9uZwn46uvRiJ8XIYtU5ReFEr7kb6IBPl3P3wkElJTzqr/sefojepX8dO4sEc3aaDiwCRtkejyB/QnAUgV38aJSjp7h6qPY04U6gTt/0m1THkerUS3vw==
+     procedure_id : 1762596256934842213
+     type_code : 14
+     code : |1+
+      // Summary: Callback called when a device is found
+      // Syntax:
+      //[ <Result> = ] CB_BLEList (<MyDevice> is BTLEDevice)
+      //
+      // Parameters:
+      //	MyDevice (BTLEDevice): Device found
+      
+      PROCEDURE CB_BLEList(MyDevice is a BTLEDevice)
+      
+      bExist is boolean
+      
+      IF gbStopListDevices THEN
+      	RESULT False
+      END
+      
+      // Check whether this device was not already added
+      FOR EACH tDevi of garrDevices 
+      	IF tDevi.Identifiant = MyDevice..Identifier THEN
+      		bExist = True
+      	END
+      END
+      
+      IF NOT bExist THEN
+      	// Add the device in memory
+      	ArrayAdd(garrDevices,MyDevice)
+      	
+      	//Add the device into the looper
+      	sName is string = MyDevice..Name
+      	IF sName ~= "" THEN
+      		sName = "Device without name"
+      	END
+      	LooperAddLine(LOOP_BTLE,MyDevice..Identifier,sName)
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : StopScan
+     internal_properties : CAAAAAgAAAA+ENbkpmVzqbucWEi3EAfTsKg7Jr6pt11VtCqfP3E8WOTJPWLShV/vW8lXqJ3SoALJpIwdk5iFG+4EvwK9UMhS/4GFCRRRsN2Jsl6ezFsnvW8hmEgjQjKSiYpbXJd+b2VC1EyCqmvaQiNKO//GYBhUrMeUZ6BRbccpUjsMBx0S+oeMncnNJJQusSIeZYySRegrd76flw==
+     procedure_id : 1762596256934907749
+     type_code : 14
+     code : |1-
+      // Summary: Stops the scan of bluetooth
+      //
+      PROCEDURE StopScan()
+      
+      gbStopListDevices = True
+      OPT_Stop..Visible = False
+      OPT_Refresh..Visible = True
+      HourglassNetwork(False)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x173c18be00b94d54
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+ dialogs :
+  -
+    identifier : 0x173c1a7400f4fc35
+    internal_properties : CAAAAAgAAADj0a9A3ZOgBYyQBp47+NQwNevNYtSALMrhnRjEPzA256e8UA==
+    label :
+     fr-FR : Votre bluetooth n'est pas activé. Activez le afin de pouvoir scanner les périphériques autour de vous.
+     en-GB : "Your Bluetooth is not enabled. To scan the devices around you, it must be enabled."
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Activer
+        en-GB : Enable
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Ne pas activer
+        en-GB : Don't enable
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

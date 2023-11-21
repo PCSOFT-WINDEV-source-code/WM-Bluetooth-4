@@ -1,0 +1,176 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_BTLE
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1875fff6010dd05f
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAsPFVGE9dOBeAu2fx0wW6lU37q9c4edBuym4zfW9rREFFctXOlrd8bviJ+r0hMET4aWqWOw6aUof9BthIWP9bhpTSm3wpApw==
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      CONSTANT
+      	PROPERTY_BROADCAST = 1
+      	PROPERTY_READ = 2
+      	PROPERTY_WRITE_NO_RESPONSE = 4
+      	PROPERTY_WRITE = 8
+      	PROPERTY_NOTIFY = 16
+      	PROPERTY_INDICATE = 32
+      	PROPERTY_SIGNED_WRITE = 64
+      	PROPERTY_EXTENDED_PROPS = 128
+      END
+     type : 720896
+  procedures :
+   -
+     name : BTLEServiceName
+     internal_properties : CAAAAAgAAAADZ4JbHoFoKUYUasJw4jVsOkA4qzfBZo3UdGaAd6AYC7sU/Ia7/FE6nIl5D5uicaxaFBBn6lCyGi/SzjHnLMHFzGFSRDt06Vzjm7fh38xWwoGoJR5RpZKfnm7Mp/Mxl/ggz9Fl3/l7u+8hcI7kUAdsOlR31mB/Qi8c1+I+MP33wCM/Zf319lm4QeLQd/AUple7kZeMUx2uUQZBybI/WeLk09rAFVfU621WmQZcXjgYffz4bHTsXv50Wjrc7ALBBrh1pqXIxf37WmB32FBr5BV13m+PL5hjqn6PZNbyT4r+OrI1iboxjNCm4QCDx7Ss9wC0VD8uwWhfMPuxo5QEW5LwhtpaMNFBVHO5yxfxHfEM+Uu3gMQxWQcUtV0NA4CyYaLZJOxiaAJxQbdimtwJD716UrvzyCm2Sgf6d3Swi4aGKJFtGJlnhLcVh7120pLe/z9CVaCbNSaIctBXMjyVJA2XPomKJEBylomemQOXjhd0CpYTljVwNzR9gdkebpY=
+     procedure_id : 1762596261230202975
+     type_code : 15
+     code : |1-
+      // Summary: Returns the name of bluetooth 4 service
+      //
+      PROCEDURE BTLEServiceName(LOCAL sUUID is string)
+      
+      sAssignedNumber is string 
+      sServiceName is string
+      
+      // Extract the service number
+      sAssignedNumber = Upper(ExtractString(sUUID,1,"-"))
+      IF Length(sAssignedNumber) = 8 THEN
+      	sAssignedNumber = sAssignedNumber[[5 TO 8]]
+      END
+      
+      // Check the number
+      SWITCH sAssignedNumber
+      	CASE "1811"
+      		sServiceName = "Alert Notification Service"
+      	CASE "1815"
+      		sServiceName = "Automation IO"
+      	CASE "180F"
+      		sServiceName = "Battery Service"
+      	CASE "1810"
+      		sServiceName = "Blood Pressure"
+      	CASE "181B"
+      		sServiceName = "Body Composition"
+      	CASE "181E"
+      		sServiceName = "Bond Management"
+      	CASE "181F"
+      		sServiceName = "Continuous Glucose Monitoring"
+      	CASE "1805"
+      		sServiceName = "Current Time Service"
+      	CASE "1818"
+      		sServiceName = "Cycling Power"
+      	CASE "1816"
+      		sServiceName = "Cycling Speed and Cadence"
+      	CASE "180A"
+      		sServiceName = "Device Information"
+      	CASE "181A"
+      		sServiceName = "Environmental Sensing"
+      	CASE "1800"
+      		sServiceName = "Generic Access"
+      	CASE "1801"
+      		sServiceName = "Generic Attribute"
+      	CASE "1808"
+      		sServiceName = "Glucose"
+      	CASE "1809"
+      		sServiceName = "Health Thermometer"
+      	CASE "180D"
+      		sServiceName = "Heart Rate"
+      	CASE "1823"
+      		sServiceName = "HTTP Proxy"
+      	CASE "1812"
+      		sServiceName = "Human Interface Device"
+      	CASE "1802"
+      		sServiceName = "Immediate Alert"
+      	CASE "1821"
+      		sServiceName = "Indoor Positioning"
+      	CASE "1820"
+      		sServiceName = "Internet Protocol Support"
+      	CASE "1803"
+      		sServiceName = "Link Loss"
+      	CASE "1819"
+      		sServiceName = "Location and Navigation"
+      	CASE "1807"
+      		sServiceName = "Next DST Change Service"
+      	CASE "1825"
+      		sServiceName = "Object Transfer"
+      	CASE "180E"
+      		sServiceName = "Phone Alert Status Service"
+      	CASE "1822"
+      		sServiceName = "Pulse Oximeter"
+      	CASE "1806"
+      		sServiceName = "Reference Time Update Service"
+      	CASE "1814"
+      		sServiceName = "Running Speed and Cadence	"
+      	CASE "1824"
+      		sServiceName = "Transport Discovery"
+      	CASE "1804"
+      		sServiceName = "Tx Power"
+      	CASE "181C"
+      		sServiceName = "User Data"
+      	CASE "181D"
+      		sServiceName = "Weight Scale"
+      	OTHER CASE
+      		
+      END
+      
+      
+      RESULT sServiceName
+     type : 458752
+   -
+     name : BTLEPropertyCharacteristic
+     internal_properties : CAAAAAgAAAB3BEMbOeq7yQ+U7p4EyBNMgiQktQKKKrMBW5T1NZgvG1r5kR4Fr8/RSyTG30oxiadwfdZ9Pxg01SwosXKBnOWIV7SRXfUAZiM1oxkcZoQOwRcUeLykESOFSGfGaexAwo8xVMoZxxnZLsOINjhBNp04Vb/mojHrtC+1iBQXGH/VbHPyCUeNyLpMFydVHLjTmSbytL/LK107LyPMDeqpuedlHWdS06s8TaULQeFW2lbs/qJN2u0=
+     procedure_id : 1762596261230268511
+     type_code : 15
+     code : |1-
+      // Summary: Returns the type of characteristic property
+      // Syntax:
+      //[ <Result> = ] BTLECharacteristicProperties (<characteristic> is BTLECharacteristic)
+      //
+      // Parameters:
+      //	characteristic (BTLECharacteristic): The characteristic
+      // Return value:
+      // 	array: Properties of the characteristic among the constants: PROPERTY_BROADCAST,PROPERTY_EXTENDED_PROPS,PROPERTY_INDICATE,PROPERTY_NOTIFY,PROPERTY_READ,PROPERTY_SIGNED_WRITE,PROPERTY_WRITE,PROPERTY_WRITE_NO_RESPONSE
+      //
+      PROCEDURE BTLEPropertyCharacteristic(characteristic is a BTLECharacteristic) : array of int
+      
+      // Refer to this page for the Android permissions
+      // https://developer.android.com/reference/android/bluetooth/BluetoothGattCharacteristic.html#PROPERTY_READ
+      // Refer to this page for the iOS permissions
+      // https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/CBCharacteristic_Class/index.html#//apple_ref/swift/struct/c:@E@CBCharacteristicProperties
+      
+      arrProperties is array of int
+      nProperty is int 
+      arrAvailableProperties is array of int = [PROPERTY_BROADCAST,PROPERTY_EXTENDED_PROPS,PROPERTY_INDICATE,PROPERTY_NOTIFY,PROPERTY_READ,PROPERTY_SIGNED_WRITE,PROPERTY_WRITE,PROPERTY_WRITE_NO_RESPONSE]
+      
+      // Property
+      nProperty = characteristic..Property
+      
+      // Find the properties found in the combination
+      FOR EACH nAvailableProp of arrAvailableProperties
+      	IF BinaryAND(nProperty,nAvailableProp) = nAvailableProp THEN
+      		ArrayAdd(arrProperties,nAvailableProp)
+      	END
+      END
+      
+      RESULT arrProperties
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x173c28060130fd8b
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
